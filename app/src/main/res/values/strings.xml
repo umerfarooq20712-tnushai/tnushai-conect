@@ -1,5 +1,7 @@
+
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Transfer</string>
+    <string name="app_name">TNUSHAI,CONECT</string>
 
     <string name="waiting_for_network">Waiting for network…</string>
     <string name="copy_ip_address">Copy IP Address</string>
@@ -14,15 +16,13 @@
     <string name="folder_selection_cancelled">Folder selection cancelled.</string>
     <string name="server_stopped">Server stopped</string>
 
-    <string name="file_server_notification_title">Transfer Server Active</string>
+    <string name="file_server_notification_title">TNUSHAI,CONECT Server Active</string>
     <string name="file_server_notification_text">Access files at http://%1$s:%2$d</string>
     <string name="notification_permission_denied">Notification permission denied</string>
 
-
     <string name="notification_channel_name">File Server</string>
-    <string name="notification_channel_description">Shows when the Transfer server is running.</string>
+    <string name="notification_channel_description">Shows when the TNUSHAI,CONECT server is running.</string>
     <string name="no_write_permission">No write permission for the selected folder. Please re-select in settings.</string>
-
 
     <string name="shared_folder_not_selected">Shared folder not selected.</string>
     <string name="file_upload_failed">Failed to upload file.</string>
@@ -31,7 +31,6 @@
     <string name="file_uploaded">File uploaded: %s</string>
     <string name="no_files_selected">No files selected.</string>
     <string name="no_folder_selected">No folder selected.</string>
-
 
     <string name="text_pasted_to_file">Text pasted to %s</string>
     <string name="clipboard_empty">Clipboard is empty or does not contain text.</string>
@@ -62,13 +61,13 @@
     <string name="delete">Delete</string>
     <string name="cancel">Cancel</string>
 
-    <!--    SETUP-->
-    <string name="setup_title">Welcome to Transfer</string>
+    <!-- SETUP -->
+    <string name="setup_title">Welcome to TNUSHAI,CONECT</string>
     <string name="setup_description">To get started, please select a folder on your device that will be used for sharing files.</string>
     <string name="choose_shared_folder">Choose Shared Folder</string>
-    <string name="folder_setup_complete">Folder selected. Starting Transfer app.</string>
+    <string name="folder_setup_complete">Folder selected. Starting TNUSHAI,CONECT.</string>
 
-    <!--    file list-->
+    <!-- FILE LIST -->
     <string name="no_files_in_shared_folder">No files here. Upload some!</string>
     <string name="action_share_file">Share</string>
     <string name="action_delete_file">Delete</string>
@@ -78,9 +77,7 @@
     <string name="file_delete_failed">Failed to delete file "%s".</string>
     <string name="refreshing_files">Refreshing file list…</string>
 
-
-    <!--    just for accesses-->
-
+    <!-- ACCESSIBILITY -->
     <string name="file_type_icon">File type icon</string>
     <string name="selection_indicator">Selection indicator</string>
     <string name="share_files">Share Files</string>
@@ -88,11 +85,11 @@
     <string name="selected_items_count">%d selected</string>
     <string name="action_select_all">Select All</string>
     <string name="upload_file">Upload File</string>
-    <!--    main UI-->
+
+    <!-- MAIN UI -->
     <string name="server_status_placeholder">Server Status</string>
     <string name="copy_ip_description">Copy IP Address</string>
     <string name="file_list_description">List of shared files</string>
-
     <string name="server_running">Server Running</string>
 
     <string name="server_error_format">Error: %s</string>
@@ -109,12 +106,12 @@
     <string name="paste_from_clipboard">Paste from Clipboard</string>
 
     <string name="extra_folder_uri">FOLDER_URI</string>
-    <string name="description">Transfer is a simple open-source app for sharing files over your local network.</string>
-    <string name="credit">Developed by matan-h • matan-h.com</string>
+    <string name="description">TNUSHAI,CONECT is a local-network app for sharing files privately.</string>
+    <string name="credit">Based on the original Transfer project by matan-h</string>
     <string name="github">GitHub</string>
     <string name="buy_me_a_coffeeText">Buy Me a Coffee</string>
-    <string name="version_name">T%1$d • Version %2$s • matan-h</string>
-    <string name="app_logo_CD">app logo</string>
+    <string name="version_name">TNUSHAI,CONECT • Version %2$s</string>
+    <string name="app_logo_CD">TNUSHAI,CONECT app logo</string>
     <string name="about">About</string>
     <string name="back_cd">back</string>
     <string name="report_error_title">Report Bug/Error</string>
@@ -123,17 +120,15 @@
     <string name="stop_server">Stop Server</string>
     <string name="start_server">Start Server</string>
     <string name="server_starting">Server Starting…</string>
-    <string name="ip_address">Ip address</string>
+    <string name="ip_address">IP address</string>
     <string name="no_app_to_open_file">cannot find any app to open this file</string>
     <string name="open_with_title">Open file with</string>
 
-    <!-- QR Code related strings -->
+    <!-- QR CODE -->
     <string name="show_qr_code">Show QR Code</string>
     <string name="qr_code_title">Scan to Connect</string>
     <string name="qr_code_description">Scan this QR code with any device to quickly access the server</string>
     <string name="qr_code_content_description">QR code for server connection</string>
     <string name="qr_code_generation_failed">Failed to generate QR code</string>
     <string name="no_ip_available">No IP address available</string>
-
-
 </resources>
